@@ -68,8 +68,15 @@ footer p {
     text-align: center;
 }
 
+#carouselExampleControls{
+    padding-top: 0 !important;
+}
+
 /*====== MEDIA QUARES PANTALLA SM - AJUSTAR TEXTO EN PANTALLAS CHICAS 768px =========*/
 /*====== el parrafo en pantallas chicas ocupa el 90% del ancho =========*/
+
+
+}
 
 @media (max-width:768px){
     #intro, #equipo{
@@ -89,6 +96,10 @@ footer p {
         margin: auto;
         text-align: justify;
     }
+
+    #carouselExampleControls{
+        padding-top: 0 !important;
+    }
     
 
    
@@ -107,6 +118,10 @@ footer p {
         width: 75%;
         margin: auto;
         text-align: justify;
+    }
+
+    #carouselExampleControls{
+        padding-top: 0 !important;
     }
     
     
